@@ -1,0 +1,148 @@
+/* Basic styles to mimic MySpace/SpaceHey aesthetic */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h2 {
+    margin: 0;
+}
+
+.bio {
+    font-style: italic;
+    color: gray;
+}
+
+.profile-content h3 {
+    font-size: 18px;
+}
+
+.friends-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.friends-list li {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* Friend Section Styles */
+.friends {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+.friend {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.friend-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.friend-info h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.friend-bio {
+    font-size: 14px;
+    color: #555;
+    font-style: italic;
+}
+
+/* Add padding to ensure good spacing */
+.friend-info {
+    padding: 10px;
+}
+
+/* Optional: You can also add hover effects for better interaction */
+.friend:hover {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
